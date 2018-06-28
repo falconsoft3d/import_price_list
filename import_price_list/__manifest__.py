@@ -22,7 +22,7 @@
 
 {
     'name': 'Importar Tarifas desde CSV',
-    'version': '10.0.1.0.0',
+    'version': '11.0.1.0.0',
     'author': 'Falcon Solutions SpA',
     'maintainer': 'Falcon Solutions',
     'website': 'http://www.falconsolutions.cl',
@@ -33,9 +33,9 @@
                 'sale',
                 ],
     'data': [
-
-        'wizard/wizard_import_price_list.xml',
         'views/product_pricelist.xml',
+        'wizard/wizard_import_price_list.xml',
+
     ],
     'installable': True,
     'application': True,

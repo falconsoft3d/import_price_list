@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-import wizard_import_price_list
+from . import wizard_import_price_list

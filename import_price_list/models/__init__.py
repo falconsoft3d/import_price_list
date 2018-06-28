@@ -6,4 +6,4 @@
 #    For more details, check COPYRIGHT and LICENSE files
 #
 ##############################################################################
-import product_pricelist
+from . import product_pricelist

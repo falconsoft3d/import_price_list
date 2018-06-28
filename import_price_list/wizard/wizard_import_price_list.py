@@ -3,6 +3,8 @@
 import os
 import csv
 import tempfile
+import base64
+
 from odoo.exceptions import UserError
 from odoo import api, fields, models, _, SUPERUSER_ID
 
@@ -21,7 +23,8 @@ class ImportPriceList(models.TransientModel):
         file_path = tempfile.gettempdir()+'/file.csv'
         data = self.file_data
         f = open(file_path,'wb')
-        f.write(data.decode('base64'))
+        f.write(base64.b64decode(data))
+        #f.write(data.decode('base64'))
         f.close() 
         archive = csv.DictReader(open(file_path))
         

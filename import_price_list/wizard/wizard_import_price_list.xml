@@ -33,6 +33,6 @@
         </record>
     
         <menuitem action="action_wizard_import_price_list" id="price_list_menu_import" 
-            parent="sale.menu_product_pricelist_main" sequence="3" name="Importar Tarifas"/>
+            parent="sale.menu_sale_config" sequence="3" name="Importar Tarifas"/>
 
     </odoo>
