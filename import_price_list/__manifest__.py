@@ -21,14 +21,14 @@
 ##############################################################################
 
 {
-    'name': 'Importar Tarifas desde CSV',
+    'name': 'Import price list CSV',
     'version': '11.0.1.0.0',
     'author': 'Falcon Solutions SpA',
     'maintainer': 'Falcon Solutions',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
     'category': 'Sales',
-    'summary': 'Importar Tarifas desde CSV',
+    'summary': '',
     'depends': ['base',
                 'sale',
                 ],
